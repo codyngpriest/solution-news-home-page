@@ -19,8 +19,8 @@ body {
 p {
   margin: 0;
   color: #a7a7a7;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 .main-wrapper {
@@ -42,28 +42,26 @@ p {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #fffdfa;
-  padding: 3%;
+  padding: 2%;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /*justify-content: space-evenly;*/
   align-items: center;
-  width: 100%;
-  padding-top: 30px;
-  margin: 0;
+  /*width: 100%;*/
+  padding-top: 20px;
+  gap: 475px;
+  margin-left: 35px;
 }
 
 nav {
   display: flex;
-  justify-content: end;
 }
 
 nav li {
-  display: inline;
-  margin: 0;
-  padding-left: 16px;
+  display: inline
 }
 
 nav a {
@@ -71,7 +69,8 @@ nav a {
   font-weight: 10;
   font-size: 1rem;
   text-decoration: none;
-  padding-inline-start: 10px;
+  justify-content: center;
+  margin-inline-end: 32px;
 }
 
 nav a:hover {
@@ -89,7 +88,9 @@ nav a:active {
   padding-bottom: 5%;
   width: 100%;
   max-width: 980px;
-  gap: 3%;
+  height: 570px;
+  gap: 0.1%;
+  margin-left: 35px;
 }
 
 .top-right img {
@@ -107,7 +108,7 @@ nav a:active {
 }
 
 h1 {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   font-weight: 900;
   font-size: 4rem;
   line-height: 3rem;
@@ -116,9 +117,10 @@ h1 {
 }
 
 .top-right-sub-left {
-  border: 1px solid red;
-  width: 200x;
-  word-break: break-all;
+  /*border: 1px solid red;*/
+  width: 265px;
+  margin-left: 110px;
+  /*word-break: break-all;*/
 }
 
 .top-right-text {
@@ -139,7 +141,8 @@ button {
   letter-spacing: 1pt;
   font-weight: 700;
   border: hidden;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
 }
 
 .btn :hover {
@@ -148,35 +151,38 @@ button {
 
 .top-left {
   border: 1px solid #00001a;
-  padding: 20px;
+  padding: 10px;
   background-color: #00001a;
-  width: 300px;
+  width: 260px;
+  height: 350px;
+  margin-left: 60px;
 }
 
   hr {
     height: 1px;
     background-color: rgba(128, 128, 128, 0.395);
     border: none;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }  
     
 
 h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #e9ab53;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h3 {
   color: #fffdfa;
-  font-size: 2rem;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  margin-bottom: 0;
+  font-size: 1rem;
+  padding-top: 2px;
+  padding-bottom: 2.5px;
+  margin-top: 15px;
+  margin-bottom: 7.5px;
 }
 
 .bottom {
@@ -184,6 +190,8 @@ h3 {
   grid-template-columns: 320px 320px 320px;
   width: 100%;
   max-width: 980px;
+  margin-top: -120px;
+  margin-left: 35px;
 }
 
 .news {
